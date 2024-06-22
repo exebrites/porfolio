@@ -1,6 +1,58 @@
-nav ul {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
 }
+
+.header {
+    background-color: aliceblue;
+    color: blue;
+    display: flex; /*ni idea lo que hace pero junto con justify-content y display inline-block permite que el organizar los items del navbar en forma 
+    horizontal*/
+    justify-content: space-between;
+    /* align-items: ; */
+    padding: 5px 10%;
+}
+.header .nav-links{
+    list-style: none;
+}
+
+.header .nav-links li{
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.header .nav-links a{
+    text-decoration: none;
+}
+/*Notas*/
+
+/* HTML */
+/* creacion de navbar responsive  */
+
+/* 1. Crear una  carpeta img  */
+/* HEADER  */
+/* 2. crear un header con class = header 
+    crear un div class= logo 
+    crear un img y agregar la imagen */
+
+/* 3. crear un nav 
+    crear una lista ul class = nav-links
+     y agregar los enlaces  */
+
+/* 4. crear a class btn y crear un button */
+
+/* CSS */
+
+/* 1. seleccionar tipo de letra
+2. formatear el documento *
+3. formatear body
+4. formatear header 
+5. display:flex
+6. justify-content: space-between 
+align-items:  center
+7. logo curso:pointer y hover
+8. list-style
+9. display :inline-block
+10. text-decoration: none */
